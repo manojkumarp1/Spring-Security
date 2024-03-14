@@ -58,11 +58,7 @@ public class DemoController {
 		return ResponseEntity.ok().body(
 			Map.of("token",token,"tokentype","Bearer"));
 	}
-	@GetMapping("/demo")
-	public ResponseEntity<String> say()
-	{
-		return ResponseEntity.ok("done");
-	}
+	
 	
 	
 

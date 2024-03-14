@@ -30,7 +30,7 @@ public class JwtToken {
 	{
 		try
 		{
-			Jwts.parser().setSigningKey("JWTSECRETKEY")
+			Jwts.parser().setSigningKey("JWTSecretKey")
 			.parseClaimsJws(token);
 			return true;
 		}
